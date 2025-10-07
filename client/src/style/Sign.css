@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+.backgoundUser {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../assets/background.png');
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.signup-form {
+  position: absolute;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.signup-form .ant-btn-primary {
+  background-color: #52c41a;
+  border-color: #52c41a;
+}
+
+.signup-form .ant-btn-primary:hover {
+  background-color: #46a611;
+  border-color: #46a611;
+}
+
+
+/*  */
+.signin-form {
+  position: absolute;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signin-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signin-form .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.signin-form .ant-btn-primary {
+  background-color: #4F46E5;
+  border-color: #4F46E5;
+}
+
+.signin-form .ant-btn-primary:hover {
+  background-color: #322d8f;
+  border-color: #322d8f;
+}
+
+

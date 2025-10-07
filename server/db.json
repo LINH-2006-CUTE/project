@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "fullname": "anhaidung",
+      "email": "an@gmail.com",
+      "password": "123456",
+      "phone": "0987311189",
+      "gender": false,
+      "status": true,
+      "monthlyCategories": [
+        {
+          "id": 1,
+          "month": "2025-10-08",
+          "categories": {
+            "id": 1,
+            "categoryId": 1,
+            "budget": 300000
+          }
+        }
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fullname": "",
+      "email": "dung2006@gmail.com",
+      "password": "123456",
+      "phone": "",
+      "gender": true,
+      "status": true,
+      "monthlyCategories": [
+        {
+          "id": 1,
+          "month": "2025-10-08",
+          "categories": {
+            "id": 1,
+            "categoryId": 1,
+            "budget": 36000
+          }
+        },
+        {
+          "id": 2,
+          "month": "2025-09-08",
+          "categories": {
+            "id": 2,
+            "categoryId": 1,
+            "budget": 36000
+          }
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "usename": "dungadmin",
+      "password": "dunghaian"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Tiền đi học",
+      "imageUrl": "https://res.cloudinary.com/dzpyhb4rc/image/upload/v1759147557/cld-sample-5.jpg",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Tiền đi bơi",
+      "imageUrl": "https://res.cloudinary.com/dzpyhb4rc/image/upload/v1759835860/cqww3dpnqkqr2to5nuld.png",
+      "status": true
+    }
+  ]
+}
