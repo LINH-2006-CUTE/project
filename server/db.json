@@ -52,8 +52,8 @@
   ],
   "admin": [
     {
-      "usename": "dungadmin",
-      "password": "dunghaian"
+      "usename": "admin",
+      "password": "123456"
     }
   ],
   "category": [
