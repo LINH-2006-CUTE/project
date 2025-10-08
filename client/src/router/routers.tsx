@@ -10,13 +10,13 @@ import CategoryUsers from "../pages/CategoryUsers";
 import History from "../pages/History";
 
 export const routers = createBrowserRouter([
-    {path:"/signup", element:<SignUp></SignUp>},
-    {path:"/signin", element:<SignIn></SignIn>},
-    {path:"/home", element:<Home></Home>},
-    {path:"/login", element:<Login></Login>},
-    {path:"/users", element:<Users></Users>},
-    {path:"/dashboard", element:<Dashboard></Dashboard>},
-    {path:"/category", element:<Category></Category>},
-    {path:"/category-users", element:<CategoryUsers></CategoryUsers>},
-    {path:"/history", element:<History></History>},
-])
+  { path: "/signup", element: <SignUp></SignUp> },
+  {path:"/signin", element:<SignIn></SignIn>},
+  {path:"/home", element:<Home></Home>},
+  {path:"/login", element:<Login></Login>},g
+  {path:"/users", element:<Users></Users>},
+  {path:"/dashboard", element:<Dashboard></Dashboard>},
+  {path:"/category", element:<Category></Category>},
+  {path:"/category-users", element:<CategoryUsers></CategoryUsers>},
+  {path:"/history", element:<History></History>},
+]);
