@@ -1,11 +1,10 @@
-import React from 'react';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu } from "antd";
 import {
   HomeOutlined,
   FolderOpenOutlined,
   HistoryOutlined,
-} from '@ant-design/icons';
-import { useNavigate, useLocation } from 'react-router-dom';
+} from "@ant-design/icons";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const { Sider } = Layout;
 
@@ -14,12 +13,11 @@ export default function Sidebar() {
   const location = useLocation();
 
   const menuItems = [
-    { key: '/home', icon: <HomeOutlined />, label: 'Information' },
-    { key: '/category-users', icon: <FolderOpenOutlined />, label: 'Category' },
-    { key: '/history', icon: <HistoryOutlined />, label: 'History' },
+    { key: "/home", icon: <HomeOutlined />, label: "Information" },
+    { key: "/category-users", icon: <FolderOpenOutlined />, label: "Category" },
+    { key: "/history", icon: <HistoryOutlined />, label: "History" },
   ];
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleMenuClick = (e: any) => {
     navigate(e.key);
   };
@@ -28,8 +26,8 @@ export default function Sidebar() {
     <Sider
       width={220}
       style={{
-        minHeight: '88vh',
-        background: 'transparent', 
+        minHeight: "88vh",
+        background: "transparent",
       }}
     >
       <Menu
@@ -42,8 +40,8 @@ export default function Sidebar() {
         }))}
         onClick={handleMenuClick}
         style={{
-          background: 'transparent', 
-          color: '#333', 
+          background: "transparent",
+          color: "#333",
           fontWeight: 500,
         }}
       />

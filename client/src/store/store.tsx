@@ -1,6 +1,6 @@
-import { configureStore } from '@reduxjs/toolkit';
-import userReducer from '../features/userSlice';      // quản lý 1 user (đăng nhập)
-import usersReducer from '../features/usersSlice';    // quản lý danh sách user
+import { configureStore } from "@reduxjs/toolkit";
+import userReducer from "../features/userSlice"; // quản lý 1 user (đăng nhập)
+import usersReducer from "../features/users_Slice"; // quản lý danh sách user
 
 const store = configureStore({
   reducer: {

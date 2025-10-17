@@ -1,4 +1,3 @@
-import React from "react";
 import { Layout, Menu } from "antd";
 import category from "../assets/icon/category.png";
 import dashboard from "../assets/icon/dashboard.png";
@@ -20,9 +19,9 @@ export default function SidebarAdmin() {
   };
 
   // xác định item được chọn dựa trên pathname hiện tại
-  const selectedKey = Object.keys(pathToKey).find((path) =>
-    location.pathname.startsWith(path)
-  ) || "dashboard";
+  const selectedKey =
+    Object.keys(pathToKey).find((path) => location.pathname.startsWith(path)) ||
+    "dashboard";
 
   return (
     <Sider
@@ -80,7 +79,10 @@ export default function SidebarAdmin() {
           }}
         >
           <Menu.Item key="signout">
-            <Link to="/login" onClick={() => localStorage.removeItem("isAuthenticated")}>
+            <Link
+              to="/login"
+              onClick={() => localStorage.removeItem("isAuthenticated")}
+            >
               <h3>
                 <img src={signout} alt="" /> Sign out
               </h3>
